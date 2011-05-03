@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<project name="${project.name}">  
+  <publishDate format="dd MMM yyyy" position="left"/>  
+  <body>
+    <menu name="Foo" href="plugin-info.html" />
+  </body>  
+</project>  
