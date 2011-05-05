@@ -17,13 +17,18 @@ Dual licensed under the MIT or GPL Version 2 licenses.
   <artifactId>maven-lesscss-plugin</artifactId>
   <packaging>maven-plugin</packaging>  
   <name>Maven Lesscss Plugin</name>
-  <version>10.1-DR3-SNAPSHOT</version>
-  <description>A maven plugin for processing lesscss (http://lesscss.org/).</description>
+  <version>1.0.0-SNAPSHOT</version>
+  <description>A maven plugin for processing lesscss (http://lesscss.org/) into css.</description>
   <url>http://github.com/polopoly/maven-lesscss-plugin</url>
   <licenses>
     <license>
-      <name>TDB</name>
-      <url>TBD</url>
+      <name>The MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>GNU General Public License Version 2</name>
+      <url>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -58,11 +63,19 @@ Dual licensed under the MIT or GPL Version 2 licenses.
     </dependency>
     
     <dependency>
+      <groupId>org.codehaus.plexus</groupId>
+      <artifactId>plexus-utils</artifactId>
+      <version>2.0.7</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
       <groupId>org.apache.maven</groupId>
       <artifactId>maven-plugin-api</artifactId>
       <version>2.2.1</version>
       <scope>provided</scope>
     </dependency>
+
   </dependencies>
   
   <!-- repositories ====================================================== -->

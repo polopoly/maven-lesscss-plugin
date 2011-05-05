@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <project name="${project.name}">  
-  <publishDate format="dd MMM yyyy" position="left"/>  
+  <publishDate  position="right"/>  
+  <version  position="left"/>  
   <body>
-    <menu name="Foo" href="plugin-info.html" />
+    
+    <links>
+      <item name="Maven Lesscss Plugin" href="http://github.com/polopoly/maven-lesscss-plugin/"/>
+    </links>    
+    
+    <menu>
+      <item name="Introduction" href="index.html"/>
+      <item name="Documentation" href="plugin-info.html" />
+      <item name="Dependecies" href="dependencies.html"/>
+    </menu>
+    
   </body>  
 </project>  
