@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
-Copyright (c) Polopoly AB (publ).
-Dual licensed under the MIT or GPL Version 2 licenses.
+   Copyright (c) Polopoly AB (publ).
+   Dual licensed under the MIT or GPL Version 2 licenses.
 -->
-
 <project 
     xmlns="http://maven.apache.org/POM/4.0.0" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
   
   <!-- project info ======================================================= -->
   
-  <modelVersion>4.0.0</modelVersion>
   <groupId>com.polopoly.tools</groupId>
   <artifactId>maven-lesscss-plugin</artifactId>
   <packaging>maven-plugin</packaging>  
@@ -47,7 +46,7 @@ Dual licensed under the MIT or GPL Version 2 licenses.
     <developer>
       <id>jwiklund</id>
       <name>Jonas Wiklund</name>
-      <url>https://github.com/jwiklund</url>
+      <url>http://github.com/jwiklund</url>
     </developer>
   </developers>
   
