@@ -4,10 +4,6 @@
   <version  position="left"/>  
   <body>
     
-    <links>
-      <item name="Maven Lesscss Plugin" href="http://github.com/polopoly/maven-lesscss-plugin/"/>
-    </links>    
-    
     <menu>
       <item name="Introduction" href="index.html"/>
       <item name="Documentation" href="plugin-info.html" />
