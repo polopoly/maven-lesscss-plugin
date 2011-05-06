@@ -4,7 +4,7 @@ Copyright (c) Polopoly AB (publ). Dual licensed under the [MIT License] or [GPL 
 
 About
 -----
-A maven plugin to process less into css (using http://lesscss.org/).
+A maven plugin to process less into css (using http://lesscss.org ).
 
 Source
 ------
