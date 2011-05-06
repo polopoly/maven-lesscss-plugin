@@ -10,6 +10,6 @@ Source
 ------
 The source can be found at [GitHub].
 
-[MIT License]: http://github.com/polopoly/maven-lesscss-plugin/MIT-LICENSE.txt
-[GPL Version 2 License]: http://github.com/polopoly/maven-lesscss-plugin/GPL-LICENSE.txt
+[MIT License]: http://github.com/polopoly/maven-lesscss-plugin/raw/master/MIT-LICENSE.txt
+[GPL Version 2 License]: http://github.com/polopoly/maven-lesscss-plugin/raw/master/GPL-LICENSE.txt
 [GitHub]: http://github.com/polopoly/maven-lesscss-plugin
