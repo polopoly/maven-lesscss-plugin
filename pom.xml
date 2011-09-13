@@ -32,9 +32,27 @@
     </license>
   </licenses>
   <scm>
+    <developerConnection>scm:git:git@github.com:polopoly/maven-lesscss-plugin.git</developerConnection>
     <connection>scm:git:git://github.com/polopoly/maven-lesscss-plugin.git</connection>
     <url>http://github.com/polopoly/maven-lesscss-plugin</url>
   </scm>
+  
+  <distributionManagement>
+    <repository>
+      <id>polopoly-product</id>
+      <name>Polopoly Product</name>
+      <url>http://maven.polopoly.com/nexus/content/repositories/polopoly-product</url>
+    </repository>
+
+    <snapshotRepository>
+      <id>polopoly-product-snapshots</id>
+      <name>Polopoly Product Snapshots</name>
+      <url>http://maven.polopoly.com/nexus/content/repositories/polopoly-product-snapshots</url>
+    </snapshotRepository>
+
+  </distributionManagement>
+
+  
   <developers>
     <developer>
       <id>andersroos</id>
