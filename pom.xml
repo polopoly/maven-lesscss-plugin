@@ -32,7 +32,7 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git://github.com/polopoly/maven-lesscsss-plugin.git</connection>
+    <connection>scm:git:git://github.com/polopoly/maven-lesscss-plugin.git</connection>
     <url>http://github.com/polopoly/maven-lesscss-plugin</url>
   </scm>
   <developers>
