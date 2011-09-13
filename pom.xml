@@ -34,7 +34,6 @@
   <scm>
     <developerConnection>scm:git:git@github.com:polopoly/maven-lesscss-plugin.git</developerConnection>
     <connection>scm:git:git://github.com/polopoly/maven-lesscss-plugin.git</connection>
-    <url>http://github.com/polopoly/maven-lesscss-plugin</url>
   </scm>
   
   <distributionManagement>
