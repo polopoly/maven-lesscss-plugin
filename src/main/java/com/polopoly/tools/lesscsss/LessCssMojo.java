@@ -4,9 +4,13 @@
  */
 package com.polopoly.tools.lesscsss;
 
+import java.util.Collections;
+import java.util.List;
+
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
+import org.apache.maven.shared.model.fileset.FileSet;
 
 /**
  * Generate css from less files.
@@ -51,5 +55,25 @@ public class LessCssMojo
     {
         LessCssProcessor processor = new LessCssProcessor(sourceDir, targetDir, excludes);
         processor.process();           
-    }    
+    }
+
+    /*
+     * Plugin 'interface' for content scan.
+     *
+     * inputFolders  = files that should cause this plugin to run again
+     * outputFolders = files that should be ignored since we are already watching the input folders
+     */
+
+    public List<FileSet> getInputFolders() {
+        FileSet sourceFiles = new FileSet();
+        sourceFiles.setDirectory(sourceDir);
+        return Collections.singletonList(sourceFiles);
+    }
+
+    public List<FileSet> getOutputFolders() {
+        FileSet targetFiles = new FileSet();
+        targetFiles.setDirectory(targetDir);
+        targetFiles.addInclude("**/*.css");
+        return Collections.singletonList(targetFiles);
+    }
 }
